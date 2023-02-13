@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+**Github(for backend):** https://github.com/MarsiaRochelin/backend
+**Deployed frontend:**
+**Deployed backend:**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**User Stories**
 
-## Available Scripts
+**(Stretch features)**
+As a user you should you should see a login/create a login prompt once you visit the site.
 
-In the project directory, you can run:
+As a user you should you should see a landing page welcoming you to the app once logged in and/or user created a login and that has a prompt asking if you have any new projects you want to associate with your account
 
-### `npm start`
+    If a project is added to the user they'll be redirected to their user/account page where they'll see it added where you would see suggestion of people you could collaborate with based on some criteria relating to the information you shared as a coder and/or the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    **(MVP)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Else they'll stay on the landing page welcoming them which has a navbar with Index (of users/coders) and New Project buttons and/or links that when you hover over then you'll see a click pointer thar will redirect you to new pages.
 
-### `npm test`
+As a user once you click onto the Index you will be redirected to a page showing you all the available coders that includes an image and their names. When the user hovers over their image they should see a click pointer and once they click on a coders image they will be redirected to a new page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As a user you will see information list out on the page about the coder that will be helpful in determining wether or not the coder could be a good fit for listed project(s) you're building and/or collaborating on.
 
-### `npm run build`
+They'll be buttons and/or links you can edit users info, or delete them entirely.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**(stretch feature)**
+As a User you will be able to edit information relating to you as a coder by clicking on user on the navbar.
