@@ -2,9 +2,13 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <p>Welcome to the To Code or Not Code App!</p>
-      {/* Not Working did i ever */}
+    <div className="Home">
+      <p>
+        <>👋🏾</> Welcome to the <>👩🏾‍💻</>
+        <span className="ProjectName">To Code or Not Code App!</span>
+        <>👨🏿‍💻</>
+      </p>
+      {/* Not Working*/}
       <img src="../Assets/homeImg.jpg" alt="Woman coding " />
     </div>
   );

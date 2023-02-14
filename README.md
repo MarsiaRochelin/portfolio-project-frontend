@@ -1,5 +1,5 @@
 **Github(for backend):** https://github.com/MarsiaRochelin/backend
-**Deployed frontend:**
+**Deployed frontend:** https://delightful-biscochitos-053ba8.netlify.app/
 **Deployed backend:**
 
 **User Stories**
@@ -9,7 +9,8 @@ As a user you should you should see a login/create a login prompt once you visit
 
 As a user you should you should see a landing page welcoming you to the app once logged in and/or user created a login and that has a prompt asking if you have any new projects you want to associate with your account
 
-    If a project is added to the user they'll be redirected to their user/account page where they'll see it added where you would see suggestion of people you could collaborate with based on some criteria relating to the information you shared as a coder and/or the project.
+    If a project is added to the user they'll be redirected to their user/account page where they'll see it added where you would see suggestion of people you could collaborate based on
+    by keywords listed in yours and/or another user project description and technology utilized
 
     **(MVP)**
 
