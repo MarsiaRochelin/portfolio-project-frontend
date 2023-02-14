@@ -1,6 +1,6 @@
 **Github(for backend):** https://github.com/MarsiaRochelin/backend
-**Deployed frontend:** https://delightful-biscochitos-053ba8.netlify.app/
-**Deployed backend:**
+**Deployed frontend:**
+**Deployed backend:** https://portfolio-project-backend.onrender.com
 
 **User Stories**
 
