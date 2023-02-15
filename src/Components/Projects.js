@@ -15,15 +15,13 @@ const Projects = () => {
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(projectList);
-
   return (
     <div className="Projects">
       <ul>
         {projectList.map((project) => {
           return (
             <li key={project.id}>
-              <Project projectList={projectList} />
+              <Project project={project} />
             </li>
           );
         })}

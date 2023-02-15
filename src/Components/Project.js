@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const project = ({ projectList }) => {
+const project = ({ project }) => {
+  const { id, project_name } = project;
+
   return (
     <div>
-      <Link to={`/projects/${projectList.id}`}>
-        <p>{projectList.project_name}</p>
+      <Link to={`/projects/${id}`}>
+        <p>{project_name}</p>
       </Link>
     </div>
   );
