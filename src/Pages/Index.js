@@ -1,11 +1,11 @@
 import React from "react";
-// import Index from "../Components/Projects";
+import Projects from "../Components/Projects";
 
 const Index = () => {
   return (
     <div className="Index">
       <h2>Index</h2>
-      {/* <Index /> */}
+      <Projects />
     </div>
   );
 };
