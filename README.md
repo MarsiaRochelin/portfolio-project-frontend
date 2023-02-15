@@ -1,6 +1,6 @@
 **Github(for backend):** https://github.com/MarsiaRochelin/backend
-**Deployed frontend:**
-**Deployed backend:** https://portfolio-project-backend.onrender.com
+**Deployed frontend:** https://stately-capybara-6fc33a.netlify.app/
+**Deployed backend:** https://portfolio-project-backend.onrender.com/projects
 
 **User Stories**
 

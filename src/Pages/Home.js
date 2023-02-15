@@ -4,9 +4,11 @@ const Home = () => {
   return (
     <div className="Home">
       <p>
-        <>👋🏾</> Welcome to the <>👩🏾‍💻</>
-        <span className="ProjectName">To Code or Not Code App!</span>
-        <>👨🏿‍💻</>
+        <>👋🏾</> Welcome to the
+        <span className="ProjectName">
+          {" "}
+          <>👩🏾‍💻</> To Code or Not Code<>👨🏿‍💻</> App!
+        </span>
       </p>
       {/* Not Working*/}
       <img src="../Assets/homeImg.jpg" alt="Woman coding " />
