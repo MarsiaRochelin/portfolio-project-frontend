@@ -17,15 +17,19 @@ const Projects = () => {
 
   return (
     <div className="Projects">
-      <ul>
+      {" "}
+      <div className="projectContainer"> </div>
+      {/* <div> */}
+      <ul className="bulletinBoard">
         {projectList.map((project) => {
           return (
-            <li key={project.id}>
+            <li key={project.id} className="stickyNotes">
               <Project project={project} />
             </li>
           );
         })}
       </ul>
+      {/* </div> */}
     </div>
   );
 };

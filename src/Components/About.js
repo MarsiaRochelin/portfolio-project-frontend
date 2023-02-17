@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div className="About">
       <h1>About the To Code or Not To Code</h1>
       <p className="AboutTheApp">
         This app was created as a means for aiding users to get portfolio ready

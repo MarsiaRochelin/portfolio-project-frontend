@@ -35,27 +35,29 @@ const ProjectDetails = () => {
   return (
     <div className="Show">
       <h1>
-        Project Name:
-        <span id="ProjectDetails">{project_name}</span>
+        Project Name: <span id="ProjectDetails">{project_name}</span>
       </h1>
       <h4>
         Project Description: <br />
-        <span>{project_description}</span>
+        <span id="ProjectDetails">{project_description}</span>
       </h4>
       <h4>
-        Technology Used: <br /> <span>{technology_utilized}</span>
+        Technology Used: <br />{" "}
+        <span id="ProjectDetails">{technology_utilized}</span>
       </h4>
       <h4>
         Start Date: <br />
-        <span>{start_date}</span>
+        <span id="ProjectDetails">{start_date}</span>
       </h4>
       <h4>
         Due Date: <br />
-        <span>{due_date}</span>
+        <spa id="ProjectDetails" n>
+          {due_date}
+        </spa>
       </h4>
       <h4>
         Email: <br />
-        <span>{email}</span>
+        <span id="ProjectDetails">{email}</span>
       </h4>
       <div className="Buttons">
         <Link to={"/projects"}>

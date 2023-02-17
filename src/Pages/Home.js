@@ -11,7 +11,7 @@ const Home = () => {
         </span>
       </p>
       {/* Not Working*/}
-      <img src="../Assets/homeImg.jpg" alt="Woman coding " />
+      <img src="" alt="Woman coding " />
     </div>
   );
 };

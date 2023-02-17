@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavBar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: black;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.Project {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bulletinBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  top: 10px;
+  z-index: 0;
+
+  /* border: 5px solid red; */
+  background-image: url("../Assets/bulletinBoard.jpg");
+  background-size: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+}
+
+.stickyNotes {
+  background-image: url("../Assets/postIt.jpg");
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  /* top: 100px; */
+  /* bottom: 100px; */
+  z-index: 1;
+}
+
+#ProjectDetails {
+  font-weight: normal;
+}
+
+.Show,
+.About,
+.New,
+.Edit {
+  border: 5px solid red;
+  padding: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.Buttons {
+  align-items: center;
 }

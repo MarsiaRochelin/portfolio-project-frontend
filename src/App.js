@@ -12,6 +12,7 @@ import FourOFour from "./Pages/FourOFour";
 // COMPONENTS //
 import NavBar from "./Components/NavBar";
 import About from "./Components/About";
+import CSS from "../src/App.css";
 
 function App() {
   return (

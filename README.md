@@ -3,6 +3,15 @@
 **Deployed backend:** https://portfolio-project-backend.onrender.com/projects
 
 **User Stories**
+**(MVP)**
+
+As a User you see a landing page welcoming you which has a navbar with Index (of projects), About, and New Project buttons that when you hover over then you'll see a click pointer thar will redirect you to new pages.
+
+As a user once you click onto the Index you will be redirected to a page showing you all the available projects. When a user hovers over the project name they should see a click pointer and once they click on it they'll be redirected to a new page.
+
+As a user you will see information list out on the page about the project that will be helpful in determining wether or not you could be a good fit for collaborating on listed project(s) I am building.
+
+They'll be a back button for navigating you back to the index, edit button to update projects, and a delete buttons to delete projects entirely.
 
 **(Stretch features)**
 As a user you should you should see a login/create a login prompt once you visit the site.
@@ -12,15 +21,4 @@ As a user you should you should see a landing page welcoming you to the app once
     If a project is added to the user they'll be redirected to their user/account page where they'll see it added where you would see suggestion of people you could collaborate based on
     by keywords listed in yours and/or another user project description and technology utilized
 
-    **(MVP)**
-
-    Else they'll stay on the landing page welcoming them which has a navbar with Index (of users/coders) and New Project buttons and/or links that when you hover over then you'll see a click pointer thar will redirect you to new pages.
-
-As a user once you click onto the Index you will be redirected to a page showing you all the available coders that includes an image and their names. When the user hovers over their image they should see a click pointer and once they click on a coders image they will be redirected to a new page.
-
-As a user you will see information list out on the page about the coder that will be helpful in determining wether or not the coder could be a good fit for listed project(s) you're building and/or collaborating on.
-
-They'll be buttons and/or links you can edit users info, or delete them entirely.
-
-**(stretch feature)**
-As a User you will be able to edit information relating to you as a coder by clicking on user on the navbar.
+As a User you will be able to edit information relating to you as a coder such as projects you want to collaborate with others on, availability, by clicking on user on the navbar.
