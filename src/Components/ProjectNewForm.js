@@ -15,6 +15,15 @@ const ProjectNewForm = () => {
     email: "",
   });
 
+  const {
+    project_name,
+    project_description,
+    technology_utilized,
+    start_date,
+    due_date,
+    email,
+  } = project;
+
   const navigate = useNavigate();
 
   const addProject = () => {
@@ -44,7 +53,7 @@ const ProjectNewForm = () => {
         <label htmlFor="project_name">Project Name: </label>
         <input
           id="project_name"
-          value={project.project_name}
+          value={project_name}
           type="text"
           onChange={handleTextChange}
           placeholder="project name"
@@ -54,7 +63,7 @@ const ProjectNewForm = () => {
         <label htmlFor="project_description">Project Description: </label>
         <input
           id="project_description"
-          value={project.project_description}
+          value={project_description}
           type="text"
           onChange={handleTextChange}
           placeholder="project description"
@@ -64,7 +73,7 @@ const ProjectNewForm = () => {
         <label htmlFor="technology_utilized">Tech Utilized: </label>
         <input
           id="technology_utilized"
-          value={project.technology_utilized}
+          value={technology_utilized}
           type="text"
           onChange={handleTextChange}
           placeholder="tech used"
@@ -74,27 +83,27 @@ const ProjectNewForm = () => {
         <label htmlFor="start_date">Start Date: </label>
         <input
           id="start_date"
-          value={project.start_date}
+          value={start_date}
           type="number"
           onChange={handleTextChange}
-          placeholder="yyyymmdd"
+          placeholder="mmddyyyy"
           required
         />
         <br />
         <label htmlFor="due_date">Due Date: </label>
         <input
           id="due_date"
-          value={project.due_date}
+          value={due_date}
           type="number"
           onChange={handleTextChange}
-          placeholder="yyyymmdd"
+          placeholder="mmddyyyy"
           required
         />
         <br />
         <label htmlFor="email">Email: </label>
         <input
           id="email"
-          value={project.email}
+          value={email}
           type="text"
           onChange={handleTextChange}
           placeholder="email@provider.com"
