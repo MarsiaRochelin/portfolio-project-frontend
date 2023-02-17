@@ -29,9 +29,10 @@
 
 .stickyNotes {
   background-image: url("../Assets/postIt.jpg");
+  background-repeat: no-repeat;
   height: 200px;
   width: 200px;
-  position: sticky;
+  position: relative;
   /* top: 100px; */
   /* bottom: 100px; */
   z-index: 1;
@@ -48,6 +49,7 @@
 ul {
   list-style-type: none;
 }
+
 .Buttons {
   align-items: center;
 }
@@ -68,7 +70,6 @@ ul {
 .HomeImg {
   background-image: url("../Assets/homeImg.jpg");
   height: 500px;
-
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
