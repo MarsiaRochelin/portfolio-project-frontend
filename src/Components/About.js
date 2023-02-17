@@ -11,12 +11,14 @@ const About = () => {
         posting them to find peers to collaborate with.
       </p>
       <h1>About the Developer</h1>
-      <div src="../Assets/Mars.jpg" alt="Mars" className="Mars" />
+      <div className="Mars" />
       <p className="AboutMe">
         [Mars]ia [Roc]helin is a [Full Stack Web Developer] who desires to land
         a role maintaining software infrastructures and assuring their quality.
       </p>
       <a href="https://github.com/MarsiaRochelin">My Github</a>
+      <br />
+      <a href="https://www.linkedin.com/in/marsia-rochelin-tech">LinkedIn</a>
     </div>
   );
 };

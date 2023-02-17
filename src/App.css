@@ -4,6 +4,7 @@
   align-items: center;
   background-color: black;
   height: 50px;
+  font-size: xx-large;
 }
 
 .Project {
@@ -28,8 +29,8 @@
 
 .stickyNotes {
   background-image: url("../Assets/postIt.jpg");
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   position: sticky;
   /* top: 100px; */
   /* bottom: 100px; */
@@ -62,4 +63,18 @@ ul {
   border-radius: 50%;
   max-width: 200px;
   height: 200px;
+}
+
+.HomeImg {
+  background-image: url("../Assets/homeImg.jpg");
+  height: 500px;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Greeting {
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
 }
