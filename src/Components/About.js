@@ -11,7 +11,7 @@ const About = () => {
         posting them to find peers to collaborate with.
       </p>
       <h1>About the Developer</h1>
-      <img src="" alt="Mars" />
+      <div src="../Assets/Mars.jpg" alt="Mars" className="Mars" />
       <p className="AboutMe">
         [Mars]ia [Roc]helin is a [Full Stack Web Developer] who desires to land
         a role maintaining software infrastructures and assuring their quality.

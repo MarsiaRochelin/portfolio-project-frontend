@@ -40,16 +40,26 @@
   font-weight: normal;
 }
 
-.Show,
-.About,
-.New,
-.Edit {
-  border: 5px solid red;
-  padding: 50px;
+.Show {
+  background-image: url("../Assets/postIt.jpg");
 }
+
 ul {
   list-style-type: none;
 }
 .Buttons {
   align-items: center;
+}
+
+.Mars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../Assets/Mars.jpg");
+  border: 2px solid;
+  border-radius: 50%;
+  max-width: 200px;
+  height: 200px;
 }

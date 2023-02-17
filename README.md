@@ -18,7 +18,7 @@ As a user you should you should see a login/create a login prompt once you visit
 
 As a user you should you should see a landing page welcoming you to the app once logged in and/or user created a login and that has a prompt asking if you have any new projects you want to associate with your account
 
-    If a project is added to the user they'll be redirected to their user/account page where they'll see it added where you would see suggestion of people you could collaborate based on
-    by keywords listed in yours and/or another user project description and technology utilized
+    If a project is added to the user they'll be redirected to their user/account page where they'll see it added where you would see suggestion of other users they could collaborate with based on
+    by keywords listed in their and/or another user project description and technology utilized
 
-As a User you will be able to edit information relating to you as a coder such as projects you want to collaborate with others on, availability, by clicking on user on the navbar.
+As a User you will be able to edit information relating to you and your listed project by clicking on user on the navbar.
