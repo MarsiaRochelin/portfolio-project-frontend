@@ -7,6 +7,7 @@ const API = process.env.REACT_APP_API_URL;
 
 const ProjectDetails = () => {
   const [project, setProject] = useState({});
+
   const {
     project_name,
     project_description,
@@ -15,6 +16,7 @@ const ProjectDetails = () => {
     due_date,
     email,
   } = project;
+
   const { id } = useParams();
   const navigate = useNavigate();
 
@@ -24,6 +26,8 @@ const ProjectDetails = () => {
       .then((res) => setProject(res.data))
       .catch((err) => console.log(err));
   }, [id]);
+
+  // console.log();
 
   const handleDelete = () => {
     axios
@@ -51,9 +55,7 @@ const ProjectDetails = () => {
       </h4>
       <h4>
         Due Date: <br />
-        <spa id="ProjectDetails" n>
-          {due_date}
-        </spa>
+        <span id="ProjectDetails">{due_date}</span>
       </h4>
       <h4>
         Email: <br />
