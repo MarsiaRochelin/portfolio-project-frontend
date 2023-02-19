@@ -7,9 +7,11 @@ const About = () => {
       <p className="AboutTheApp">
         This app was created as a means for aiding me in getting portfolio ready
         for prospect employers, by listing out projects I want to add to my
-        portfolio by continuing their builds as specified in my project
-        description. My hopes is to continue the build of my app so that users
-        could have a platform to do the same and also find collaborators.
+        portfolio (another app to develop) by continuing the build as specified
+        in my project description for each app. My hopes is to continue the
+        build of my app, so that users could not only have the ability to add
+        projects of their own but have a platform to find collaborators for
+        listed projects.
       </p>
       <h1>About the Developer</h1>
       <div className="Mars" />
