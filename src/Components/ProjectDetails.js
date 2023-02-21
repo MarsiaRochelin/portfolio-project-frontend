@@ -27,7 +27,7 @@ const ProjectDetails = () => {
       .catch((err) => console.log(err));
   }, [id]);
 
-  //want to convert my start_date and due_date to human readable dates tried Array.from method but I think because the integer is assigned to a key in my object I am running into issues as far as it not working how I thought it would circle back applying other suggested approached on geeksforgeeks
+  //want to convert my start_date and due_date to human readable dates tried Array.from method but I think because the integer is assigned to a key in my object I am running into issues as far as it not working how I thought it would i'll circle back applying other suggested approaches on geeksforgeeks
 
   const handleDelete = () => {
     axios
