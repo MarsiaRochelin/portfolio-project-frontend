@@ -15,12 +15,16 @@ As a user you will see information list out on the page about the project that w
 They'll be a back button for navigating you back to the index, edit button to update projects, and a delete buttons to delete projects entirely.
 
 **(Stretch features)**
-As a user you should you should see a login/create a login prompt once you visit the site
+As a user you should you should see a login/create a login prompt once you visit the site.
 
-As a user you should you should see a landing page welcoming you to the app once logged in and/or user created a login and that has a prompt asking if you have any new projects you want to associate with your account
+As a user you should you should see a landing page welcoming you to the app once logged in and/or user created a login and that has a prompt asking if you have any new projects you want to associate with your account.
 
     If a project is added to the user they'll be redirected to their user/account page were they'll see the project is added to their account.
 
-Users will also be able to see suggestions of other users they could collaborate with based on keywords listed in their and/or another user project description and technology utilized fo a project
+    Users could visit the project board link in the navbar if they do not have projects to add to their account to see current listing of projects as well as a clickable link that will redirected users to a profile associated with the project owner so they can determine their interest in collaborating with them.
+
+    Users could also able visit community link in the navbar to see the app list of current users, so they can then visit their pages individually.
+
+Users will see suggestions of other users they could collaborate with based on keywords listed in their profile from their project description and technology utilized for a project.
 
 As a User you will be able to edit information relating to you and your listed project by clicking on user on the navbar.
