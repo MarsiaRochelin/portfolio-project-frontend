@@ -25,6 +25,6 @@ As a user you should you should see a landing page welcoming you to the app once
 
     Users could also able visit community link in the navbar to see the app list of current users, so they can then visit their pages individually.
 
-Users will see suggestions of other users they could collaborate with based on keywords listed in their profile from their project description and technology utilized for a project.
+As a user you will see suggestions of other users you could collaborate with based on keywords listed in yours an/or their profile from their project description and technology utilized for a project.
 
 As a User you will be able to edit information relating to you and your listed project by clicking on user on the navbar.
