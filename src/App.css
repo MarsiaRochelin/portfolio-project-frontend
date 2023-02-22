@@ -14,11 +14,10 @@
 .bulletinBoard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* Can't quite get this to work how I attended. I feel i have to adjust the aspect ratio of my bulletin image so the sticky's can lay on the bulletin board*/
   position: relative;
   top: 10px;
   z-index: 0;
-
-  /* border: 5px solid red; */
   background-image: url("../Assets/bulletinBoard.jpg");
   background-size: 750px;
   background-position: center;

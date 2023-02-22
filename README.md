@@ -17,7 +17,7 @@ They'll be a back button for navigating you back to the index, edit button to up
 
 ![image](Assets/stepLatter.jpg)
 
-<!-- This image was added to remind me to respect my app journey and celebrate my pace. When I conceptualized my app initially it had more functionality. I took my instructors advice and choose to strive for MVP for the duration of the sprint. Doing so and coding out every part from scratch made me digest my code better seeing the flow and processing code which I can I didn't fully digest at times in class.-->
+<!-- This image was added to remind me to respect my app journey and celebrate my pace. When I conceptualized my app initially it had more functionality. I took my instructors advice and choose to strive for MVP for the duration of the sprint. Doing so and coding out every part from scratch made me digest my code better seeing the flow and processing code which I can say I didn't fully digest at times in class.-->
 
 **(Stretch features)**
 As a user you should you should see a login/create a login prompt once you visit the site.
