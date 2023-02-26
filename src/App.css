@@ -14,7 +14,7 @@
 .bulletinBoard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* Can't quite get this to work how I attended. I feel i have to adjust the aspect ratio of my bulletin image so the sticky's can lay on the bulletin board*/
+  /* Can't quite get this to work how I attended.I feel i have to adjust the aspect ratio of my bulletin image so the sticky's can lay on the bulletin board*/
   position: relative;
   top: 10px;
   z-index: 0;
@@ -43,6 +43,7 @@
 
 .Show {
   background-image: url("../Assets/postIt.jpg");
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -77,4 +78,14 @@ ul {
   font-weight: bold;
   font-size: xx-large;
   text-align: center;
+}
+/* manipulate the way the image shows */
+.Edit {
+  background-image: url("../Assets/eraser.jpg");
+  background-repeat: no-repeat;
+}
+/* manipulate the way the image shows */
+.New {
+  background-image: url("../Assets/pencil.png");
+  background-repeat: no-repeat;
 }
